@@ -15,7 +15,7 @@ public class Main
         }
         public static void main(String[] args) throws Exception
         {
-            String str=javax.swing.JOptionPane.showInputDialog("Enter files you wanted:");
+            String str=javax.swing.JOptionPane.showInputDialog("Enter files you want to delete:");
             File f=new File(str);
             FileDelete(f);
         }
